@@ -1,0 +1,10 @@
+C:\Users\Joshua Sheriff\Documents\GitHub\GADE6112-POE\GADE6112 POE\GADE6112 POE\bin\Debug\GADE6112 POE.exe.config
+C:\Users\Joshua Sheriff\Documents\GitHub\GADE6112-POE\GADE6112 POE\GADE6112 POE\bin\Debug\GADE6112 POE.exe
+C:\Users\Joshua Sheriff\Documents\GitHub\GADE6112-POE\GADE6112 POE\GADE6112 POE\bin\Debug\GADE6112 POE.pdb
+C:\Users\Joshua Sheriff\Documents\GitHub\GADE6112-POE\GADE6112 POE\GADE6112 POE\obj\Debug\GADE6112 POE.csproj.AssemblyReference.cache
+C:\Users\Joshua Sheriff\Documents\GitHub\GADE6112-POE\GADE6112 POE\GADE6112 POE\obj\Debug\GADE6112 POE.csproj.SuggestedBindingRedirects.cache
+C:\Users\Joshua Sheriff\Documents\GitHub\GADE6112-POE\GADE6112 POE\GADE6112 POE\obj\Debug\GADE6112_POE.Properties.Resources.resources
+C:\Users\Joshua Sheriff\Documents\GitHub\GADE6112-POE\GADE6112 POE\GADE6112 POE\obj\Debug\GADE6112 POE.csproj.GenerateResource.cache
+C:\Users\Joshua Sheriff\Documents\GitHub\GADE6112-POE\GADE6112 POE\GADE6112 POE\obj\Debug\GADE6112 POE.csproj.CoreCompileInputs.cache
+C:\Users\Joshua Sheriff\Documents\GitHub\GADE6112-POE\GADE6112 POE\GADE6112 POE\obj\Debug\GADE6112 POE.exe
+C:\Users\Joshua Sheriff\Documents\GitHub\GADE6112-POE\GADE6112 POE\GADE6112 POE\obj\Debug\GADE6112 POE.pdb
