@@ -19,10 +19,10 @@ namespace GADE6112_POE
             WEAPON
         }
 
-        public Tile()
+        public Tile(int tileX, int tileY)
         {
-            X = 0;
-            Y = 0;
+            X = tileX;
+            Y = tileY;
         }
     }
 }

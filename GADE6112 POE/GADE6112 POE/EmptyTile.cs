@@ -8,7 +8,7 @@ namespace GADE6112_POE
 {
     internal class EmptyTile : Tile
     {
-        public EmptyTile() : base()
+        public EmptyTile(int X, int Y) : base(X, Y)
         {
 
         }

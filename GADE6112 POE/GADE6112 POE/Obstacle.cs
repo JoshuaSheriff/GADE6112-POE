@@ -8,7 +8,7 @@ namespace GADE6112_POE
 {
     internal class Obstacle : Tile
     {
-        public Obstacle() : base()
+        public Obstacle(int X, int Y) : base(X, Y)
         {
 
         }
