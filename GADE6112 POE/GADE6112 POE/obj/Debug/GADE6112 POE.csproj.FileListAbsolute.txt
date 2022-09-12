@@ -16,3 +16,6 @@ C:\Users\Willi\Source\Repos\GADE6112-POE\GADE6112 POE\GADE6112 POE\obj\Debug\GAD
 C:\Users\Willi\Source\Repos\GADE6112-POE\GADE6112 POE\GADE6112 POE\obj\Debug\GADE6112 POE.csproj.CoreCompileInputs.cache
 C:\Users\Willi\Source\Repos\GADE6112-POE\GADE6112 POE\GADE6112 POE\obj\Debug\GADE6112 POE.exe
 C:\Users\Willi\Source\Repos\GADE6112-POE\GADE6112 POE\GADE6112 POE\obj\Debug\GADE6112 POE.pdb
+C:\Users\Willi\source\repos\GADE6112-POE\GADE6112 POE\GADE6112 POE\bin\Debug\GADE6112 POE.exe.config
+C:\Users\Willi\source\repos\GADE6112-POE\GADE6112 POE\GADE6112 POE\bin\Debug\GADE6112 POE.exe
+C:\Users\Willi\source\repos\GADE6112-POE\GADE6112 POE\GADE6112 POE\bin\Debug\GADE6112 POE.pdb

@@ -15,18 +15,28 @@ namespace GADE6112_POE
         public Gamepad()
         {
             InitializeComponent();
+        }
 
-            int[,] boxCoords;
+        private void btnBegin_Click(object sender, EventArgs e)
+        {
 
             for (int x = 0; x < 15; x++)
             {
                 for (int y = 0; y < 15; y++)
-                {
-                    var txtBox = new TextBox();
-                    txtBox.Name = "txt" + x + y;
-                    txtBox.Location = new Point(x*10, y*10);
-                    txtBox.Size = new Size(15, 10);
+                { 
+                    TextBox txtBox = new TextBox();
+                    txtBox.Size = new Size(30, 10);
+                    txtBox.Location = new Point(x * 30, y * 30);
+                    panel1.Controls.Add(txtBox);
 
+                    if ((x == 0) || (x == 14))
+                    {
+                        txtBox.BackColor = Color.Black;
+                    }
+                    if ((y == 0) || (y == 14))
+                    {
+                        txtBox.BackColor = Color.Black;
+                    }
                 }
             }
         }

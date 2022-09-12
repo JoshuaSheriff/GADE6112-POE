@@ -39,7 +39,7 @@ namespace GADE6112_POE
             
         //}
 
-        private Tile Create(Tile.TileType type)
+        /*private Tile Create(Tile.TileType type)
         {
             switch (type)
             {
@@ -57,6 +57,6 @@ namespace GADE6112_POE
                     break;
  
             }
-        }
+        } */
     }
 }
