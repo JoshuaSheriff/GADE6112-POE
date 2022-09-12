@@ -16,7 +16,7 @@ namespace GADE6112_POE
         public override Movement ReturnMove(Movement ReturnMove)
         {
             Obstacle wall = new Obstacle(X, Y);
-            switch (rng.Next(3))
+            switch (rng.Next(3)) 
             {
                 case 0:
                     ReturnMove = Movement.UP;
