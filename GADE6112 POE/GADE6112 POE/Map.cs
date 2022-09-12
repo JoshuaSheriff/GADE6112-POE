@@ -55,7 +55,7 @@ namespace GADE6112_POE
                     enemy = new Enemy(rng.Next(mapWidth), rng.Next(mapHeight);
                     map[createX,createY]
                     break;
-
+ 
             }
         }
     }

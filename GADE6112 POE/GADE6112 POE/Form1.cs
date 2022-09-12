@@ -22,7 +22,10 @@ namespace GADE6112_POE
             {
                 for (int y = 0; y < 15; y++)
                 {
-                    boxCoords[,] = new TextBox();
+                    var txtBox = new TextBox();
+                    txtBox.Name = "txt" + x + y;
+                    txtBox.Location = new Point(x*10, y*10);
+                    txtBox.Size = new Size(15, 10);
 
                 }
             }
