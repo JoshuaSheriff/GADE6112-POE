@@ -154,6 +154,7 @@
             this.Controls.Add(this.btnBegin);
             this.Name = "Gamepad";
             this.Text = "Gameboy Advanced";
+            this.Load += new System.EventHandler(this.Gamepad_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

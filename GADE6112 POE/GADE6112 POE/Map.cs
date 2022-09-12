@@ -20,6 +20,10 @@ namespace GADE6112_POE
 
         private Random rng;
 
+        public Map()
+        {
+
+        }
         public Map(int minWidth, int maxWidth, int minHeight, int maxHeight, int numEnemies)
         {
             mapWidth = rng.Next(minWidth, maxWidth);
@@ -29,8 +33,13 @@ namespace GADE6112_POE
             
             enemy = new Enemy[numEnemies];
 
-            //Create();
+            Create(Tile.TileType.HERO);
 
+            foreach (Enemy enemies in enemy)
+            {
+                Create(Tile.TileType.ENEMY);
+
+            }
             //UpdateVision();
         }
 

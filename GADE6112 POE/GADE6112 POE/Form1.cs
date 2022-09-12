@@ -12,6 +12,7 @@ namespace GADE6112_POE
 {
     public partial class Gamepad : Form
     {
+
         public Gamepad()
         {
             InitializeComponent();
@@ -19,6 +20,12 @@ namespace GADE6112_POE
 
         private void btnBegin_Click(object sender, EventArgs e)
         {
+
+        }
+
+        private void Gamepad_Load(object sender, EventArgs e)
+        {
+            Map map = new Map(0, 15, 0, 15, 5);
 
             for (int x = 0; x < 15; x++)
             {
