@@ -39,24 +39,23 @@ namespace GADE6112_POE
             
         //}
 
-        /*private Tile Create(Tile.TileType type)
+        private Tile Create(Tile.TileType type)
         {
+            int createX = rng.Next(mapWidth);
+            int createY = rng.Next(mapHeight);
+
             switch (type)
             {
-                case Tile.TileType.HERO:
-                    int createX = rng.Next(mapWidth);
-                    int createY = rng.Next(mapHeight);
-                    hero = new Hero( createX, createY, 10)
-                    map[createX, createY] = Tile.TileType.HERO;
+                case Tile.TileType.HERO:      
+                    hero = new Hero(createX, createY, 10);
+                    map[createX, createY] = hero;
                     break;
                 case Tile.TileType.ENEMY:
-                    int createX = rng.Next(mapWidth);
-                    int createY = rng.Next(mapHeight);
-                    enemy = new Enemy(rng.Next(mapWidth), rng.Next(mapHeight);
-                    map[createX,createY]
+                    //enemy = new Enemy(rng.Next(mapWidth), rng.Next(mapHeight);
+                    map[createX, createY] = enemy[0];
                     break;
- 
-            }
-        } */
+             }
+            return map[createX, createY];
+        }
     }
 }
