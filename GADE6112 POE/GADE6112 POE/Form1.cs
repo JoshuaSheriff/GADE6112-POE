@@ -23,9 +23,10 @@ namespace GADE6112_POE
             for (int x = 0; x < 15; x++)
             {
                 for (int y = 0; y < 15; y++)
-                { 
+                {
                     TextBox txtBox = new TextBox();
                     txtBox.Size = new Size(30, 10);
+                    txtBox.Name = "txt" + x.ToString() + "_" + y.ToString();
                     txtBox.Location = new Point(x * 30, y * 30);
                     panel1.Controls.Add(txtBox);
 
