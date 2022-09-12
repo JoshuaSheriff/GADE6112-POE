@@ -20,6 +20,8 @@ namespace GADE6112_POE
 
         private Random rng;
 
+        private int enemyCounter = 0;
+
         public Map()
         {
 
@@ -37,8 +39,9 @@ namespace GADE6112_POE
 
             foreach (Enemy enemies in enemy)
             {
+                
                 Create(Tile.TileType.ENEMY);
-
+                enemyCounter++;
             }
             //UpdateVision();
         }
@@ -60,8 +63,9 @@ namespace GADE6112_POE
                     map[createX, createY] = hero;
                     break;
                 case Tile.TileType.ENEMY:
-                    //enemy = new Enemy(rng.Next(mapWidth), rng.Next(mapHeight);
-                    map[createX, createY] = enemy[0];
+                    Swamp_Creature swamp_Creature = new Swamp_Creature(createX, createY);
+                    enemy[enemyCounter] = swamp_Creature;
+                    map[createX, createY] = enemy[enemyCounter];
                     break;
              }
             return map[createX, createY];
