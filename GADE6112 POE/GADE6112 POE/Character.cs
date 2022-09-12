@@ -24,7 +24,7 @@ namespace GADE6112_POE
             RIGHT
         }
 
-        public Character(int characterX, int characterY, char symbol = 'H') : base(characterX, characterY)
+        public Character(int characterX, int characterY, string symbol = "H") : base(characterX, characterY)
         {
 
         }

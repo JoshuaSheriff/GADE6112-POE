@@ -11,7 +11,7 @@ namespace GADE6112_POE
     {
         protected int rng;
 
-        public Enemy(int enemyX, int enemyY, int enemyDamage, int enemyCurrentHP ,int enemyMaxHP, char symbol) : base(enemyX, enemyY)
+        public Enemy(int enemyX, int enemyY, int enemyDamage, int enemyCurrentHP ,int enemyMaxHP, string symbol) : base(enemyX, enemyY)
         {
             
         }
