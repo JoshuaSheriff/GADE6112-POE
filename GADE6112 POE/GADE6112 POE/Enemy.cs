@@ -9,7 +9,7 @@ namespace GADE6112_POE
 {
     internal abstract class Enemy : Character
     {
-        protected int rng;
+        protected Random rng;
 
         public Enemy(int enemyX, int enemyY, int enemyDamage, int enemyCurrentHP ,int enemyMaxHP, string symbol) : base(enemyX, enemyY)
         {
