@@ -10,11 +10,22 @@ using System.Windows.Forms;
 
 namespace GADE6112_POE
 {
-    public partial class Form1 : Form
+    public partial class Gamepad : Form
     {
-        public Form1()
+        public Gamepad()
         {
             InitializeComponent();
+
+            int[,] boxCoords;
+
+            for (int x = 0; x < 15; x++)
+            {
+                for (int y = 0; y < 15; y++)
+                {
+                    boxCoords[,] = new TextBox();
+
+                }
+            }
         }
     }
 }

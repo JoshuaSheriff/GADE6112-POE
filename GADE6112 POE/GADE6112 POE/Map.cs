@@ -16,17 +16,17 @@ namespace GADE6112_POE
 
         //Map width and height
         private int mapWidth;
-        private int mapheight;
+        private int mapHeight;
 
         private Random rng;
 
         public Map(int minWidth, int maxWidth, int minHeight, int maxHeight, int numEnemies)
         {
             mapWidth = rng.Next(minWidth, maxWidth);
-            mapheight = rng.Next(minHeight, maxHeight);
+            mapHeight = rng.Next(minHeight, maxHeight);
 
-            map = new Tile[mapWidth, mapheight];
-
+            map = new Tile[mapWidth, mapHeight];
+            
             enemy = new Enemy[numEnemies];
 
             //Create();
@@ -34,5 +34,29 @@ namespace GADE6112_POE
             //UpdateVision();
         }
 
+        //public void UpdateVision()
+        //{
+            
+        //}
+
+        private Tile Create(Tile.TileType type)
+        {
+            switch (type)
+            {
+                case Tile.TileType.HERO:
+                    int createX = rng.Next(mapWidth);
+                    int createY = rng.Next(mapHeight);
+                    hero = new Hero( createX, createY, 10)
+                    map[createX, createY] = Tile.TileType.HERO;
+                    break;
+                case Tile.TileType.ENEMY:
+                    int createX = rng.Next(mapWidth);
+                    int createY = rng.Next(mapHeight);
+                    enemy = new Enemy(rng.Next(mapWidth), rng.Next(mapHeight);
+                    map[createX,createY]
+                    break;
+
+            }
+        }
     }
 }

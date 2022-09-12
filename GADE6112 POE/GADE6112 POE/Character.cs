@@ -101,16 +101,16 @@ namespace GADE6112_POE
                 case Movement.NONE:
                     break;
                 case Movement.UP:
-                    Y = +1;
+                    Y =- 1;
                     break;
                 case Movement.DOWN:
-                    Y = -1;
+                    Y =+ 1;
                     break;
                 case Movement.LEFT:
-                    X = -1;
+                    X =- 1;
                     break;
                 case Movement.RIGHT:
-                    X = +1;
+                    X =+ 1;
                     break;
                 default:
                     break;
